@@ -3,7 +3,7 @@ function genschedule
 % Column 1: Week nr
 % Column 2: Day of week
 % Column 3: Month
-% Column 4: 
+% Column 4: Day of month
 numdata = xlsread('dates_2019.xlsx');
 
 % Create output file and write latex header
